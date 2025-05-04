@@ -3,10 +3,6 @@ os: linux
 files:
   - source: dist/shop/
     destination: /var/www/html/
-hooks:
-  AfterInstall:
-    - location: restart_httpd.sh
-      timeout: 60
-      runas: root
+
 
      

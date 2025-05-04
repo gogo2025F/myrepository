@@ -24,4 +24,4 @@ artifacts:
   files:
     - dist/**/*
     - appspec.yaml
-    - restart_httpd.sh
+    
